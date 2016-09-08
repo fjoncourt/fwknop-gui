@@ -1,0 +1,14 @@
+Description: Added keywords entry to desktop file to help end users search
+Author: Franck Joncourt <franck@debian.org>
+Forwarded: no
+
+--- a/fwknop-gui.desktop
++++ b/fwknop-gui.desktop
+@@ -1,6 +1,7 @@
+ [Desktop Entry]
+ Name=Fwknop-gui
+ GenericName=fwknop-gui
++Keywords=SPA;client
+ Comment=send spa packets
+ Exec=fwknop-gui
+ Icon=fwknop-gui
