@@ -1,6 +1,6 @@
 Description: Added keywords entry to desktop file to help end users search
 Author: Franck Joncourt <franck.joncourt@gmail.com>
-Forwarded: no
+Forwarded: https://github.com/jp-bennett/fwknop-gui/pull/23
 
 --- a/fwknop-gui.desktop
 +++ b/fwknop-gui.desktop
