@@ -1,0 +1,27 @@
+Description: Improve manpage description
+ The manpage is updated to use the Debian package description that
+ has been reviewed by the i18n Debian team
+Author: Franck Joncourt <franck.joncourt@gmail.com>
+Forwarded: https://github.com/jp-bennett/fwknop-gui/pull/23
+
+--- a/fwknop-gui.8.asciidoc
++++ b/fwknop-gui.8.asciidoc
+@@ -15,9 +15,16 @@
+ 
+ DESCRIPTION
+ -----------
+-*fwknop-gui* provides a graphical interface to send SPA packets.
++*fwknop-gui* is a graphical user interface integrated with an Fwknop
++client that provides the ability to send SPA packets to a remote
++Fwknop server, as well as a front-end for creating and managing
++client configurations for multiple Fwknop servers.
+ 
+-Supports AES and GPG encrypted SPA packets.
++It supports exporting saved configuration data to a QR code format
++readable by the Android client, as well as to the .fwknoprc format
++readable by the command line client.
++
++It supports AES and GPG encrypted SPA packets.
+ 
+ BUGS
+ ----
