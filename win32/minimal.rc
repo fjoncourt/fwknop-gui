@@ -1,3 +1,0 @@
-a ICON "fwknop-gui.ico"
-#define wxUSE_NO_MANIFEST 0
-#include "wx/msw/wx.rc"
