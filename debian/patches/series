@@ -1,3 +1,4 @@
+005_remove_useless_dependencies.diff
 004_fix_manpage_description.diff
 003_fix_licence.diff
 002-add-desktop-entry-keywords.diff

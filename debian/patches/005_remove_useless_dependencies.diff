@@ -1,0 +1,18 @@
+Description: Remove useless dependencies
+ During Debian build dpkg-shlibdeps warns the package could avoid several
+ dependencies (libwx_baseu_xml, libwx_gtk2u_richtext, libwx_gtk2u_qa)
+about a dependency that coulb be avoided.
+Author: Franck Joncourt <franck.joncourt@gmail.com>
+Forwarded: https://github.com/jp-bennett/fwknop-gui/pull/24
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -18,7 +18,7 @@
+   set(CODE_FILES win32/minimal.rc)
+ endif()
+ 
+-find_package(wxWidgets 3.0.0 COMPONENTS xml html adv qa richtext net core base REQUIRED)
++find_package(wxWidgets 3.0.0 COMPONENTS html adv net core base REQUIRED)
+ 
+ include(${wxWidgets_USE_FILE})
+ include_directories(${CMAKE_SOURCE_DIR})
