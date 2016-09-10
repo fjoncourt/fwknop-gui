@@ -1,6 +1,8 @@
 Description: Fix licence
+ The software is released under GPLv3+ but the help message displays GPLv2+.
+ This patch fix the help message for consistency purpose.
 Author: Franck Joncourt <franck.joncourt@gmail.com>
-Forwarded: https://github.com/jp-bennett/fwknop-gui/pull/23
+Applied-Upstream:1.4, commit:https://github.com/jp-bennett/fwknop-gui/tree/a3991f7c75de5d3358cb56f552f833d834573fb0
 
 --- a/help.html
 +++ b/help.html

@@ -1,4 +1,5 @@
 Description: Fix manpage
+ This patches fixes the manpage installation for Debian package only
 Author: Jonathan Bennett <jbennett@cipherdyne.com>
 Forwarded: no
 

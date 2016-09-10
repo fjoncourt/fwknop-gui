@@ -1,8 +1,8 @@
 Description: Improve manpage description
  The manpage is updated to use the Debian package description that
- has been reviewed by the i18n Debian team
+ has been reviewed by the i10n-english Debian team.
 Author: Franck Joncourt <franck.joncourt@gmail.com>
-Forwarded: https://github.com/jp-bennett/fwknop-gui/pull/23
+Applied-Upstream:1.4, commit:https://github.com/jp-bennett/fwknop-gui/tree/a3991f7c75de5d3358cb56f552f833d834573fb0
 
 --- a/fwknop-gui.8.asciidoc
 +++ b/fwknop-gui.8.asciidoc
