@@ -18,7 +18,7 @@ if (IS_WIN32)
   set(CODE_FILES win32/minimal.rc)
 endif()
 
-find_package(wxWidgets 3.0.0 COMPONENTS xml html adv qa richtext net core base REQUIRED)
+find_package(wxWidgets 3.0.0 COMPONENTS html adv net core base REQUIRED)
 
 include(${wxWidgets_USE_FILE})
 include_directories(${CMAKE_SOURCE_DIR})
