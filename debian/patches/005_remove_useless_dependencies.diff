@@ -1,7 +1,6 @@
 Description: Remove useless dependencies
  During Debian build dpkg-shlibdeps warns the package could avoid several
  dependencies (libwx_baseu_xml, libwx_gtk2u_richtext, libwx_gtk2u_qa)
-about a dependency that coulb be avoided.
 Author: Franck Joncourt <franck.joncourt@gmail.com>
 Forwarded: https://github.com/jp-bennett/fwknop-gui/pull/24
 
